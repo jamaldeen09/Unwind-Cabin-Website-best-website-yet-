@@ -1,4 +1,3 @@
-import React from 'react'
 import { thirdSecinfo } from '../../../../util/ItemRender'
 import ThirdSecCard from '../components/ThirdSecCard'
 import { motion } from "framer-motion";

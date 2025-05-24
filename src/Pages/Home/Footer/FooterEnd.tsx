@@ -29,7 +29,7 @@ const FooterEnd = () => {
       
       <div className="flex text-white items-center space-x-4">
         {
-            iconArr.map ((icon, index) => {
+            iconArr.map ((icon) => {
                 return icon
             })
         }

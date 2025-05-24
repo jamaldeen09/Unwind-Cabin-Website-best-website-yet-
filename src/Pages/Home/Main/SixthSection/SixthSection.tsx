@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { freqAsked } from "../../../../util/ItemRender";
 import FreqAsked from "./componentsSixth/FreqAsked";
 

@@ -7,7 +7,7 @@ const FooterSign = () => {
   const [ usersEmail,setUsersEmail ] = useState<string>("")
 
   const handleUsersEmail = (event) => {
-    setUsersEmail((prevUsersEmail) => event.target.value);
+    setUsersEmail(event.target.value);
   }
 
   const validateEmail  = (email: string) => {
@@ -26,12 +26,10 @@ const FooterSign = () => {
     const validation = validateEmail (usersEmail);
 
     if (!validation) {
-        setErrMsg ((prevErrMsg) => "Invalid Email")
+        setErrMsg ("Invalid Email")
     } else {
-        const information = {
-            email: usersEmail
-        }
-        setErrMsg ((prevErrMsg) => "");
+        
+        setErrMsg ("");
     }
   }
   return (

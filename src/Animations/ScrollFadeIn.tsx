@@ -1,8 +1,11 @@
 import { useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
+type Props = {
+  children: React.ReactNode;
+};
 
-const ScrollFadeIn = ({ children }) => {
+const ScrollFadeIn = ({ children }: Props) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
   const animation = useAnimation();

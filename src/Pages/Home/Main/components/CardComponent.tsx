@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { heart } from '../../../../util/Icons'
 import { starRating } from '../../../../util/Icons'
 

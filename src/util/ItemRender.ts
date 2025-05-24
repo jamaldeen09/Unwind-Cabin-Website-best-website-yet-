@@ -1,5 +1,4 @@
 import { starRating } from "./Icons"
-import { calendar,peopleGroup,map } from "./Icons"
 export const navLinks: string [] = [
     "Our cabins",
     "Get inspired",

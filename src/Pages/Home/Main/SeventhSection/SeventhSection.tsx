@@ -1,4 +1,3 @@
-import React from 'react'
 import ScrollFadeIn from '../../../../Animations/ScrollFadeIn'
 
 const SeventhSection = () => {

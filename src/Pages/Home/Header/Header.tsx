@@ -1,4 +1,3 @@
-import React from 'react'
 import NavComponent from '../../../components/NavComponent'
 import HeaderBody from './HeaderBody'
 

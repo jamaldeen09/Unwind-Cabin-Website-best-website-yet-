@@ -1,4 +1,4 @@
-import React from "react";
+
 import { starStyles } from "../../../../util/ItemRender";
 import ScrollFadeIn from "../../../../Animations/ScrollFadeIn";
 

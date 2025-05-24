@@ -1,4 +1,3 @@
-import React from 'react'
 import { starRating } from '../../../util/Icons'
 import { starStyles } from '../../../util/ItemRender'
 import ScrollFadeIn from '../../../Animations/ScrollFadeIn'

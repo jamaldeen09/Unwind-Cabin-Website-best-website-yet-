@@ -1,4 +1,3 @@
-import React from 'react'
 import { arrowRight } from '../../../../util/Icons'
 import ScrollFadeIn from '../../../../Animations/ScrollFadeIn'
 

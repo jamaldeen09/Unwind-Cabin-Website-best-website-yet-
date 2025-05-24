@@ -1,5 +1,3 @@
-import React from 'react'
-
 const FifthSection = () => {
   return (
     <section style={{backgroundColor: "rgb(243, 252, 243)"}} 

@@ -1,4 +1,3 @@
-import React from "react";
 import CardComponent from "../components/CardComponent";
 import { cardInformation } from "../../../../util/ItemRender";
 import { motion } from "framer-motion";
