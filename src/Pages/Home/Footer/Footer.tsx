@@ -12,6 +12,7 @@ const Footer = () => {
     lg:px-40">
 
       <div className="grid
+      verySmall:grid-cols-1
       sm:items-center grid-cols-2
       midLaptop:grid-cols-3 gap-10
       lg:grid-cols-5">
