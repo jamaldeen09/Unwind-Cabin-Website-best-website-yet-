@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* tailwind reusable styles */
+@layer components {
+  .poppins {
+    font-family: "Poppins",sans-serif;
+  }
+
+  .navTitleColor {
+    color: green;
+  }
+
+  .navLinks{
+    transition: color 0.2s ease-in-out;
+  }
+
+  .navLinks:hover{
+    color: green;
+    cursor: pointer;
+  }
+
+  .iconBg { 
+    background-color: rgb(125, 156, 125)
+  }
+
+  .mobileLinks {
+    transition: background-color 0.3s ease-in-out, color 0.6s ease-in-out;
+  }
+
+  .mobileLinks:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .mobileLinks:active {
+    filter: brightness(80%)
+  }
+
+  .txt{
+    color: #F5B963;
+  }
+
+  .hero-section{
+    background-image: url(https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FiaW4lMjBpbiUyMHdvb2RzfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cardBg {
+    background-color:rgb(25, 46, 25);
+  }
+
+  .cardLocation {
+    color: rgb(162, 247, 162);
+  }
+
+  .heartIcon{
+    transition:transform 0.4s ease-in-out;
+  }
+
+  .heartIcon:hover{
+    transform: scale(1.1);
+  }
+
+  .cardHover{
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .cardHover:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+  }
+
+  .imageHover{
+     transition: transform 0.6s ease-in-out;
+  }
+
+  .imageHover:hover {
+    transform:rotate(-5deg)
+  }
+
+  .txtHover {
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .txtHover:hover{
+    transform:translateY(-10px);
+  }
+
+  .btnHover {
+    transition: filter 0.3s ease-in-out, transform 0.6s ease;
+  }
+
+  .btnHover:hover {
+    transform: scale(1.05);
+    filter: brightness(80%)
+  }
+
+  .seventhSec{
+    background-image: url(https://images.unsplash.com/photo-1652339223892-d3fd906576af?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwc3Vuc2V0fGVufDB8fDB8fHww);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn {
+    transition: background-color 0.3s ease-in-out,color 0.3s ease-in-out;
+  }
+
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .footerBtn {
+    transition: transform 0.6s ease, filter 0.6s ease;
+  }
+
+  .footerBtn:hover {
+    transform: scale(1.07);
+    filter: brightness(90%);
+    cursor: pointer;
+  }
+
+  .footerBtn:Active {
+    filter: brightness(80%);
+  }
+}
+
+/* css styles */
+
+
