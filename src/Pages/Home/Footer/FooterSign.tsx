@@ -60,9 +60,11 @@ const FooterSign = () => {
             onChange={handleUsersEmail}
             type="text"
             placeholder="JasonLogan@gmail.com"
-            className="h-[7vh] px-5 rounded-md
+            className="px-5 rounded-md
+            max-sm: h-[7vh]
+            sm:h-[7vh]
             midLaptop:w-[30vw]
-            lg:w-[20vw] "
+            lg:w-[20vw]"
           />
           <button onClick={handleSubmitting} className="bg-yellow-400 px-5 py-4 rounded-md footerBtn">
             Join the mailing list

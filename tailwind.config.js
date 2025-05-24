@@ -10,7 +10,7 @@ module.exports = {
         verySmall: {max: "414px", min: "344px"},
         midLaptop: { max:"1470px", min: "1024px"},
         midIpad: {max: "1030px", min: "1024px"},
-        iphone14: {max:"430px", min:"344px"},
+        iphone14: {max:"430px", min:"342px"},
         xs: "344px",
       },
       colors: {

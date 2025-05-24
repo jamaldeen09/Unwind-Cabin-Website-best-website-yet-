@@ -13,6 +13,7 @@ const Footer = () => {
 
       <div className="grid
       verySmall:grid-cols-1
+      max-sm: grid-cols-1
       sm:items-center grid-cols-2
       midLaptop:grid-cols-3 gap-10
       lg:grid-cols-5">
