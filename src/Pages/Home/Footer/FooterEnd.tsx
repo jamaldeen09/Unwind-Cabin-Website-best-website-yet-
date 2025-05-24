@@ -1,4 +1,3 @@
-import React from "react";
 import { youtube,instagram,twitter,Linkedin,facebook } from "../../../util/Icons";
 
 const FooterEnd = () => {

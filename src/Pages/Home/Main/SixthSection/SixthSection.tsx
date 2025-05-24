@@ -1,13 +1,12 @@
-import { useState } from "react";
 import { freqAsked } from "../../../../util/ItemRender";
 import FreqAsked from "./componentsSixth/FreqAsked";
 
 const SixthSection = () => {
-    const [ asked,setAsked ] = useState<string[]>([
-        "About our cabins",
-        "Tell me about the cabin",
-        "Pets, family & friends",
-    ])
+    const asked: string[] = [
+      "About our cabins",
+      "Tell me about the cabin",
+      "Pets, family & friends",
+    ]
   return (
     <section className="min-h-screen flex flex-col justify-center py-20 gap-20 
     max-sm: px-10

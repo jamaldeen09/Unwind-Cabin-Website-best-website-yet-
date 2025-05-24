@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 const FooterSign = () => {
@@ -6,7 +6,7 @@ const FooterSign = () => {
 
   const [ usersEmail,setUsersEmail ] = useState<string>("")
 
-  const handleUsersEmail = (event) => {
+  const handleUsersEmail = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUsersEmail(event.target.value);
   }
 

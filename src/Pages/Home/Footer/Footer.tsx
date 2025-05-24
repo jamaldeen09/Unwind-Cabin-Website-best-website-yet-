@@ -1,7 +1,7 @@
-import React from "react";
+
 import { foorterFourthInfo, footerInfo } from "../../../util/ItemRender";
 import { footerSecondInfo, footerThirdInfo } from "../../../util/ItemRender";
-import { h2 } from "framer-motion/client";
+
 import FooterSign from "./FooterSign";
 import FooterEnd from "./FooterEnd";
 
